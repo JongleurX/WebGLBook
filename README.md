@@ -1,7 +1,19 @@
-WebGLBook
-=========
+WebGLBook [JongleurX fork]
+==========================
 
-Code Examples for Tony Parisi's Book, WebGL Up and Running.
+*** So far, the only real difference between this fork and the original version is that
+*** some HTML files have been added for navigation. It turns out that having a navigation
+*** pane that is located at the "local root" of the code samples and includes links to the
+*** various sample demos is enough to get around the CORS security restrictions of at least
+*** Firefox. There are still a few demos that require the SimpleHTTPServer to run correctly,
+*** but most of them work fine. This may be helpful for those folks who do not have admin
+*** rights to install Python or run a local web server.
+***
+*** Eventually, some additional examples and tweaked verisons of the demos will be added
+*** based on feedback from the participants of the WebGL study group using this book as a
+*** reference in Redmond, WA.
+
+Little Tweaks to the Code Examples for Tony Parisi's Book, WebGL Up and Running.
 
 You can grab the stable version that corresponds with August 2012 release of the book by getting the tag v1.0 (see Tags).
 
